@@ -1,0 +1,30 @@
+{
+  "name": "yapin-voice-bot",
+  "version": "1.0.0",
+  "description": "A Yapin' music bot that streams YouTube audio into voice channels",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristianRelf/yapin-voice-bot.git"
+  },
+  "keywords": [
+    "yapin",
+    "bot",
+    "music",
+    "voice"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristianRelf/yapin-voice-bot/issues"
+  },
+  "homepage": "https://github.com/ChristianRelf/yapin-voice-bot#readme",
+  "dependencies": {
+    "@livekit/rtc-node": "^1.2.1",
+    "yapin.js": "^0.1.1"
+  }
+}
